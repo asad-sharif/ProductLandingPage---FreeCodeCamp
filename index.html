@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Landing Page</title>
+    </head>
+
+    <body>
+        <header id="header">
+            <img src="./assets/lamp-logo.svg" alt="" id="header-img">
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#about-sec">About</a></li>
+                    <li><a class="nav-link" href="#features-sec">Features</a></li>
+                    <li><a class="nav-link" href="#contact-sec">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="banner-sec">
+                <h2>The perfect light for every mood</h2>
+            </section>
+
+            <section id="about-sec">
+                <p>Elevate your living experience with our meticulously crafted lamps designed to bring warmth and
+                    sophistication to your home.</p>
+                <p>At <em>Wonder Lamps</em> , we believe that lighting goes beyond functionality – it's an art form that
+                    transforms spaces and enhances your daily moments.</p>
+            </section>
+
+            <section id="features-sec">
+                <div class="features-content">
+                    <div class="feature">
+                        <img src="./assets/adaptive-technology.png" alt="">
+                        <h2>Adaptive Ambiance Technology</h2>
+                    </div>
+
+                    <div class="feature">
+                        <img src="./assets/minimalist-design.png" alt="">
+                        <h2>Sleek Minimalist Design</h2>
+                    </div>
+
+                    <div class="feature">
+                        <img src="./assets/energy-management (1).png" alt="">
+                        <h2>Smart Energy Management</h2>
+                    </div>
+
+                </div>
+
+                <div>
+                    <video id="video" width="440px" controls loop muted>
+                        <source src="./assets/lamp-video.mp4">
+                    </video>
+                </div>
+
+            </section>
+
+            <section id="contact-sec">
+
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                    <h2>Lighting the Way to a Radiant Lifestyle</h2>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <input type="submit" id="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+
+
+        <footer>
+            <div>
+                <p><a href="#">Privacy</a></p>
+                <p><a href="#">Terms</a></p>
+                <p><a href="#">Contact</a></p>
+            </div>
+
+            <div>
+                <p><small>Copyright 2016, Original Trombones</small></p>
+            </div>
+        </footer>
+    </body>
+
+</html>
