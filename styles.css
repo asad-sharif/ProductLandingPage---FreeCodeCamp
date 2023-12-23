@@ -148,7 +148,8 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-    background-color: #586f49;
+    background-color: white;
+    color: black;
 }
 
 /* Additional styles for form elements as needed */
